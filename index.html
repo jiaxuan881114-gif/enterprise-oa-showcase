@@ -127,7 +127,7 @@ a{color:inherit;text-decoration:none}
   background:#E9EEF6;border:1px solid var(--line);border-radius:14px;
   display:flex;align-items:center;justify-content:center;min-height:320px;overflow:hidden;
 }
-.gallery-main img{width:100%;height:auto;border-radius:13px;display:none}
+.gallery-main img{max-width:min(520px,100%);height:auto;border-radius:13px;display:none;margin:0 auto}
 .gallery-main img.active{display:block}
 .gallery-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
 .gtab{
@@ -216,10 +216,6 @@ footer{background:#12233D;color:#8FA6C9;padding:30px 0;font-size:13px;text-align
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <span class="hero-kicker">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
-          通用基础版 · 不绑定业务与客户模块
-        </span>
         <h1>一套开箱即用的<em>企业通用 OA</em></h1>
         <p class="hero-sub">覆盖人事、行政、审批流与文件管理四大基础模块。不含业务与客户系统的定制负担，拿来即用，适合作为企业信息化的第一步。</p>
         <div class="hero-cta">
